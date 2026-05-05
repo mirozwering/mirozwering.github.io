@@ -1,0 +1,84 @@
+/* 1. Algemene instellingen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Navigatie rechtsboven (op alle pagina's) */
+.upper-right {
+    text-align: right;
+    padding: 20px;
+}
+
+.upper-right a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+
+/* 3. Hoofdpagina & Image Search (Centreren) */
+/* We gebruiken een container om de zoekbalk in het midden te zetten */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px; /* Zet de zoekbalk een stukje naar beneden */
+}
+
+.search-bar {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 40px;
+    width: 500px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+/* Knoppen op de hoofdpagina */
+.button-container input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* 4. Advanced Search Pagina (Specifieke styling) */
+.advanced-container {
+    margin: 40px;
+}
+
+.advanced-container h1 {
+    color: #d93025;
+    font-size: 20px;
+}
+
+.advanced-table {
+    margin-top: 30px;
+}
+
+.advanced-table td {
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.advanced-table input[type="text"] {
+    width: 500px;
+    height: 25px;
+    border: 1px solid #d9d9d9;
+}
+
+/* De blauwe Advanced Search knop */
+.advanced-btn {
+    background-color: #4d90fe;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+}

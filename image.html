@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Google Image Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="upper-right">
+        <a href="index.html">Google Search</a>
+    </nav>
+
+    <div class="main-content">
+        <h1 style="font-size: 90px; margin-bottom: 20px;">Google <span style="font-size: 20px; color: #4285f4;">images</span></h1>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" class="search-bar">
+            <!-- Deze regel zorgt ervoor dat het een Image Search wordt -->
+            <input type="hidden" name="tbm" value="isch">
+            <div class="button-container">
+                <input type="submit" value="Image Search">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
